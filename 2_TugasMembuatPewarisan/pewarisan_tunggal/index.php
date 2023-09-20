@@ -1,25 +1,25 @@
 <?php 
-require('Animal.php');
-require('Ape.php');
-require('Frog.php');
+require('Hewan.php');
+require('Kera.php');
+require('Katak.php');
 
-$sheep = new Animal("shaun");
+$sheep = new Hewan("shaun");
 
-echo "Name : " . $sheep->name . "<br>";
-echo "legs : " . $sheep->legs . "<br>";
-echo "cold blooded : " . $sheep->cold_blooded . "<br><br>";
+echo "Nama Hewan : " . $sheep->name . "<br>";
+echo "kaki : " . $sheep->kaki . "<br>";
+echo "berdarah digin : " . $sheep->berdarah_digin . "<br><br>";
 
-$kodok = new Frog("buduk");
+$kodok = new Katak("dokodok");
 
-echo "Name : " . $kodok->name . "<br>";
-echo "legs : " . $kodok->legs . "<br>";
-echo "cold blooded : " . $kodok->cold_blooded . "<br>";
-echo $kodok->jump("Hop Hop");
+echo "Nama Hewan : " . $kodok->name . "<br>";
+echo "kaki : " . $kodok->kaki . "<br>";
+echo "berdarah digin : " . $kodok->berdarah_digin . "<br>";
+echo $kodok->loncat("Hop Hop");
 
-$sungokong = new Ape("kera sakti");
+$sungokong = new Kera("kera sakti");
 
-echo "Name : " . $sungokong->name . "<br>";
-echo "legs : " . $sungokong->legs . "<br>";
-echo "cold blooded : " . $sungokong->cold_blooded . "<br>";
-echo $sungokong->yell("Auooo");
+echo "Nama Hewan : " . $sungokong->name . "<br>";
+echo "kaki : " . $sungokong->kaki . "<br>";
+echo "berdarah digin : " . $sungokong->berdarah_digin . "<br>";
+echo $sungokong->teriak("Auooo");
 ?>
